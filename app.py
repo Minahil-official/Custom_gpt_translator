@@ -1,10 +1,10 @@
 from langchain_groq import ChatGroq
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import streamlit as st
-load_dotenv()
+# load_dotenv()
 # Initialize model
-api_key = os.getenv("GROQ_API_KEY")
+# api_key = os.getenv("GROQ_API_KEY")
 model = ChatGroq(model="deepseek-r1-distill-llama-70b",api_key= "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")
 
 

@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import streamlit as st
 load_dotenv()
 # Initialize model
-api_key = os.getenv("groq_api_key")
+api_key = os.getenv("GROQ_API_KEY")
 model = ChatGroq(model="deepseek-r1-distill-llama-70b",api_key= api_key)
 
 
